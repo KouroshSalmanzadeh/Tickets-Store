@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/Favicon.png" type="image/x-icon">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <script src="assets/js/main.js" defer></script>
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+
+    <title>Tickets Store</title>
+</head>
+
+<body>
+    <img src="assets/img/flying-around-world-with-airplane-concept-illustration_114360-2149.jpg" alt="Fly">
+    <span class="title-header">
+        <lord-icon src="https://cdn.lordicon.com/guqkthkk.json" trigger="loop" delay="4000" state="hover-pinch"
+            colors="primary:#00ffe7" style="width:100px;height:100px">
+        </lord-icon>
+        Fill base on your details
+    </span>
+    <div class="main-box">
+        <div class="inputs">
+            <div class="box first-name">
+                <span class="title">First Name</span>
+                <input type="text" name="first-name" autocomplete="given-name">
+            </div>
+            <div class="box last-name">
+                <span class="title">Last Name</span>
+                <input type="text" name="last-name" autocomplete="family-name">
+            </div>
+            <div class="box email">
+                <span class="title">Email</span>
+                <input name="email" type="email" autocomplete="email"> </div>
+            <div class="box phone-number">
+                <span class="title">Phone Number</span>
+                <select>
+                    <option selected hidden>Your country</option>
+                    <option value="Iran">Iran (+98)</option>
+                    <option value="Usa">Usa (+1)</option>
+                    <option value="Germany">Germany (+49)</option>
+                    <option value="Poland">Poland (+48)</option>
+                    <option value="Uae">Uae (+971)</option>
+                    <option value="Canada">Canada (+1)</option>
+                    <option value="Uk">Uk (+44)</option>
+                    <option value="Turkey">Turkey (+90)</option>
+                    <option value="France">France (+33)</option>
+                </select>
+                <input type="text" maxlength="10" minlength="10">
+            </div>
+            <div class="box city">
+                <span class="title">City</span>
+                <select>
+                </select>
+            </div>
+
+            <input type="submit" value="Submit">
+        </div>
+    </div>
+</body>
+
+</html>
